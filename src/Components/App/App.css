@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  height: 100%;
+  position: relative;
+
+}
+
+.App-logo {
+  height: 2.5rem;
+  pointer-events: none;
+  color: yellow;
+  margin: 0 20px;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+ height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: sticky;
+  top: 0;
+  border-bottom: solid white 2px;
+  z-index: 2;
+}
+
+.signUpButton {
+  font-size: 1rem;
+  position: relative;
+  width: 8rem;
+  height: 2.5rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin: 10px 20px;
+  border-radius: 5px;
+  border: solid 1px #d94e3b;
+  background: #cb3b27;
+  text-align: center;
+  padding: 10px 5px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 4px 0px #84261a;
+  -moz-box-shadow: 0px 4px 0px #84261a;
+  box-shadow: 0px 4px 0px #84261a;
+  outline: none;
+}
+.signUpButton:focus {
+  box-shadow: 0px 4px 0px #84261a;
+  position: relative;
+  font-weight: bold;
+  top: 2px;
+}
+.signUpButton:hover {
+  box-shadow: 0px 4px 0px #84261a;
+  position: relative;
+  font-weight: bold;
+  top: 2px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60%;
+}
+
+.container .signUpButton {
+  margin: 0px;
+  width: 18rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

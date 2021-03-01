@@ -1,0 +1,34 @@
+.sweep {
+  color: black;
+  margin: 10px 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-weight: bold;
+  overflow: auto;
+  
+}
+
+.sweep p {
+  margin: 6px !important;
+}
+
+.user {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user p {
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 15px;
+    background-color: #cb3b27;
+    border-radius: 5px;
+    margin: 3px !important;
+}
+
+.user p:hover {
+    background-color: #84261a;
+}

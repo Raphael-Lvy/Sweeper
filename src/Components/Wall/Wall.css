@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300&family=Quicksand:wght@500&display=swap');
+.wall {
+    width: 80vw;
+    height: 62vh;
+    margin: 0.5rem;
+    background-color: rgba(85, 83, 83, 0.8);
+    border: 1px solid #282c34;
+    color: white;
+    padding: 2px 20px 20px 20px;
+    border-radius: 10px;
+   
+}
+
+.sweepsWall {
+  text-align: center;
+  overflow-y: scroll;
+  height: 52vh;
+ 
+  border-radius: 5px;
+  font-family: 'Architects Daughter', cursive;
+  
+}
+
+.wall h2, h4 {
+  margin: 7px;
+}
+
+.yellow {
+    color:#cb3b27;
+}
+
+.submitButton {
+  font-size: 1rem;
+  position: relative;
+  width: 8rem;
+  height: 2.5rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: solid 1px #d94e3b;
+  background: #cb3b27;
+  text-align: center;
+  padding: 10px 5px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 4px 0px #84261a;
+  -moz-box-shadow: 0px 4px 0px #84261a;
+  box-shadow: 0px 4px 0px #84261a;
+  outline: none;
+  }
+  .submitButton:focus {
+    box-shadow: 0px 9px 0px #84261a;
+    position: relative;
+    font-weight: bold;
+    top: 3px;
+  }
+  .submitButton:hover {
+    box-shadow: 0px 9px 0px #84261a;
+    position: relative;
+    font-weight: bold;
+    top: 3px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .wall {
+      height: 60vh;
+    }
+
+    .sweepsWall {
+      height: 50vh;
+    }
+  }
